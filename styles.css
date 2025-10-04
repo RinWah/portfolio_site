@@ -1,0 +1,27 @@
+body {
+  background-color: #121212;
+  color: #ffffff; /* optional for readability */
+  font-family: 'Montserrat', sans-serif;
+}
+/* All links */
+a {
+  color: #00bfff; /* bright blue */
+  text-decoration: none; /* removes underline (optional) */
+}
+
+/* On hover */
+a:hover {
+  color: #ff9800; /* orange when hovered */
+  text-decoration: underline; /* underline only on hover */
+}
+
+/* Links that were visited */
+a:visited {
+  color: #9c27b0; /* purple */
+}
+
+/* When actively clicking */
+a:active {
+  color: #f44336; /* red */
+}
+
